@@ -1,7 +1,9 @@
 # Live Code Stuff
 FoxDot and Sonic Pi Info
 
-|               |              |              |               |               |               |               |             |             |             |
+#### SynthDefs
+
+|        |              |              |               |               |               |               |             |             |             |
 |---------------|--------------|--------------|---------------|---------------|---------------|---------------|-------------|-------------|-------------|
 |    loop       |    noise     |    growl     |    rave       |    gong       |    scratch    |    creep      |    feel     |    pluck    |    pulse    |
 |    gsynth     |    dab       |    bass      |    scatter    |    soprano    |    klank      |    orient     |    glass    |    spark    |    saw      |
@@ -9,6 +11,7 @@ FoxDot and Sonic Pi Info
 |    play2      |    lazer     |    crunch    |    bell       |    viola      |    ripple     |    marimba    |    quin     |    bug      |    twang    |
 |    audioin    |              |              |               |               |               |               |             |             |             |
 
+#### Player.get_attributes())
 
 |              |               |              |                |                  |                 |              |               |                |               |
 |--------------|---------------|--------------|----------------|------------------|-----------------|--------------|---------------|----------------|---------------|
@@ -17,6 +20,8 @@ FoxDot and Sonic Pi Info
 |    freq      |    amplify    |    sus       |    midinote    |    slidedelay    |    striate      |    hpf       |    bpf        |    beat_dur    |    mix        |
 |    dur       |    scale      |    fmod      |    channel     |    slidefrom     |    buf          |    hpr       |    bpr        |    echo        |    formant    |
 |    delay     |    bpm        |    pan       |    vib         |    bend          |                 |    lpf       |    bpnoise    |    echotime    |    shape      |
+
+#### Samples
 
 |           |                      |           |                             |           |                        |            |                          |           |                       |
 |-----------|----------------------|-----------|-----------------------------|-----------|------------------------|------------|--------------------------|-----------|-----------------------|
