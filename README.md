@@ -1,6 +1,8 @@
 # Live Code Stuff
 FoxDot and Sonic Pi Info
 
+|               |              |              |               |               |               |               |             |             |             |
+|---------------|--------------|--------------|---------------|---------------|---------------|---------------|-------------|-------------|-------------|
 |    loop       |    noise     |    growl     |    rave       |    gong       |    scratch    |    creep      |    feel     |    pluck    |    pulse    |
 |    gsynth     |    dab       |    bass      |    scatter    |    soprano    |    klank      |    orient     |    glass    |    spark    |    saw      |
 |    play1      |    varsaw    |    dirt      |    charm      |    dub        |    blip       |    zap        |    soft     |    fuzz     |    snick    |
@@ -8,14 +10,16 @@ FoxDot and Sonic Pi Info
 |    audioin    |              |              |               |               |               |               |             |             |             |
 
 
+|              |               |              |                |                  |                 |              |               |                |               |
+|--------------|---------------|--------------|----------------|------------------|-----------------|--------------|---------------|----------------|---------------|
 |    degree    |    buf        |    sample    |    rate        |    sus           |    benddelay    |    rate      |    lpr        |    chop        |    cut        |
 |    oct       |    blur       |    env       |    amp         |    slide         |    coarse       |    pshift    |    swell      |    tremolo     |    room       |
 |    freq      |    amplify    |    sus       |    midinote    |    slidedelay    |    striate      |    hpf       |    bpf        |    beat_dur    |    mix        |
 |    dur       |    scale      |    fmod      |    channel     |    slidefrom     |    buf          |    hpr       |    bpr        |    echo        |    formant    |
 |    delay     |    bpm        |    pan       |    vib         |    bend          |                 |    lpf       |    bpnoise    |    echotime    |    shape      |
-|              |               |              |    vibdepth    |                  |                 |              |               |    spin        |               |
 
-
+|           |                      |           |                             |           |                        |            |                          |           |                       |
+|-----------|----------------------|-----------|-----------------------------|-----------|------------------------|------------|--------------------------|-----------|-----------------------|
 |    '!'    |    Yeah!             |    '='    |    Hi hat open              |    'M'    |    Acoustic toms       |    '\\'    |    Lazer                 |    'm'    |    808 toms           |
 |    '#'    |    Crash             |    '@'    |    Gameboy noise            |    'N'    |    Gameboy SFX         |    '^'     |    'Donk'                |    'n'    |    Noise              |
 |    '$'    |    Beatbox           |    'A'    |    Gameboy kick drum        |    'O'    |    Heavy snare         |    'a'     |    Gameboy hihat         |    'o'    |    Snare drum         |
@@ -30,5 +34,6 @@ FoxDot and Sonic Pi Info
 |    '3'    |    Vocals (Three)    |    'J'    |    Ambient stabs            |    'X'    |    Heavy kick          |    'j'     |    Whines                |    'x'    |    Bass drum          |
 |    '4'    |    Vocals (Four)     |    'K'    |    Percussive hits          |    'Y'    |    High buzz           |    'k'     |    Wood shaker           |    'y'    |    Percussive hits    |
 |    '-'    |    Hi-hats           |    'L'    |    Noisy percussive hits    |    'Z'    |    Loud stabs          |    'l'     |    Robot noise           |    'z'    |    Scratch            |
-|           |                      |           |                             |           |                        |            |                          |    '|'    |    Hangdrum           |
+|           |                      |           |                             |           |                        |            |                          |    | Hangdrum           |
 |           |                      |           |                             |           |                        |            |                          |    '~'    |    Ride cymbal        |
+|           |                      |           |                             |           |                        |            |                          |           |                       |
