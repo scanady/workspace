@@ -42,3 +42,24 @@ FoxDot and Sonic Pi Info
 |           |                      |           |                             |           |                        |            |                          |    | Hangdrum           |
 |           |                      |           |                             |           |                        |            |                          |    '~'    |    Ride cymbal        |
 |           |                      |           |                             |           |                        |            |                          |           |                       |
+
+Alda, a music programming language for musicians. Windows | macOS | GNU/Linux FLOSS audio
+https://github.com/alda-lang/alda
+
+Gibber, creative coding for JavaScript. Google Chrome | Mozilla Firefox web JavaScript FLOSS audio visuals
+https://gibber.cc/
+
+FoxDot, Live Coding with Python and SuperCollider. Windows | macOS | GNU/Linux Python Supercollider FLOSS audio
+http://foxdot.org/
+
+Pure Data, an open source visual programming language that can be used to process and generate sound, video, 2D/3D graphics, and interface sensors, input devices, and MIDI. Windows | macOS | GNU/Linux graphical-language FLOSS audio visuals
+https://puredata.info/
+
+Sonic Pi, the Live Coding music synth for everyone. Windows | macOS | GNU/Linux Ruby Supercollider FLOSS audio
+http://sonic-pi.net/
+
+SuperCollider, a platform for audio synthesis and algorithmic composition, used by musicians, artists, and researchers working with sound. Windows | macOS | GNU/Linux FLOSS audio
+http://supercollider.github.io/
+
+TidalCycles, is a language for Live Coding pattern. Windows | macOS | GNU/Linxux Haskell Supercollider FLOSS audio
+https://tidalcycles.org/
