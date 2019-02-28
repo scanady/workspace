@@ -43,6 +43,89 @@ FoxDot and Sonic Pi Info
 |           |                      |           |                             |           |                        |            |                          |    '~'    |    Ride cymbal        |
 |           |                      |           |                             |           |                        |            |                          |           |                       |
 
+
+#### NOTES
+
+```
+Ab = 8
+A = 9
+As = 10
+Bb = 10
+B = 11
+Cb = 11
+C = 0
+Cs = 1
+Db = 1
+D = 2
+Ds = 3
+Eb = 3
+E = 4
+Es = 5
+F = 5
+Fs = 6
+Gb = 6
+G = 7
+Gs = 8
+```
+
+#### CHORDS
+```
+chC = (C,E,G)
+chCs = (Cs,Es,Gs)
+chCm = (C,Eb,G)
+chD = (D,Fs,A)
+chDm = (G,Bb,Eb,D)
+chEb = (Eb,G,Bb)
+chF = (F,A,C)
+chFs = (Fs,As,Cs)
+chE = (E,Gs,B)
+chAb = (Ab,C,Eb)
+chG = (G,B,D)
+chA = (A,Cs,E)
+chBb = (Bb,D,F)
+chB = (B,Ds,Fs)
+
+print(SynthDefs)
+print(Buffers.Samples)
+```
+
+```
+# Returns a random integer between start and stop. If start is a container-type it return a random item for that container.
+# PRand(start, stop=None)
+# PRand([0,1,2])
+# PRand(1,10)
+print(PRand(1,10)[:4])
+
+# Returns random floating point values between 'lo' and 'hi'
+# PWhite(lo=0, hi=1)
+# PWhite(0,1)
+print(PWhite(0,1)[:4])
+
+# Returns a Pattern equivalent to ``Pattern(range(start, stop, step))
+# PRange(start, stop=None, step=None)
+print(PRange(0, 10, 1))
+
+# Returns the Euclidean rhythm which spreads 'n' pulses over 'k' steps as evenly as possible.
+# PEuclid(n, k)
+print(PEuclid(3, 8))
+
+# Returns the *actual* durations based on Euclidean rhythms (see PEuclid) where dur is the length of each step.
+# PDur(n, k, start=0, dur=0.25)
+print(PDur(3, 8))
+
+# Returns a pattern of durations similar to how you might strum a guitar
+# PStrum(n=4)
+print(PStrum(8))
+
+# Returns a PGroup of delay amounts that gradually decrease
+# PQuicken(dur=1/2, stepsize=3, steps=6)
+print(PQuicken(1/2, 3, 6))
+
+# Returns values of one cycle of sine wave split into 'n' parts
+# PSine(n=16):
+print(PSine(16))
+```
+
 Alda, a music programming language for musicians. Windows | macOS | GNU/Linux FLOSS audio
 https://github.com/alda-lang/alda
 
