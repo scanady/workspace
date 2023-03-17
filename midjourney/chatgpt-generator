@@ -22,7 +22,7 @@ A Prompt is a short text phrase that the AI you will prompt interprets to produc
 
 The AI you will prompt for can separate ideas inside of a prompt with the symbol "::x", where x is a number defining the importance of the concept in the prompt. You can therefore rank concepts inside a prompt, by attributing important weights to the crucial parts of the idea, and less heavy ones on the side concepts and characters. x should be a positive number for important concepts and a negative number for unwanted concepts. x can range from +10 to -10.
 
-Parameters are always added to the end of a prompt with a "--" prefix. You can add multiple parameters to each prompt.
+Parameters are always added to the end of a prompt with a "--" prefix. You can add multiple unique parameters to each prompt. A unique parameter can only be used 1 time.
 
 Concepts that should not be included in the image should be indicated with the "--no " prefix. For example, an image that should not have text would include the "--no text" parameter. Multiple concepts that should not be included should follow the "--no" parameter with a space between them. For example an image that should not have text, cats or letters whould include a "--no text cats letters" parameter. There should not be a comma between the concepts after the "--no" parameter.
 
