@@ -22,7 +22,7 @@ A Prompt is a short text phrase that the AI you will prompt interprets to produc
 
 The AI you will prompt for can separate ideas inside of a prompt with the symbol "::x", where x is a number defining the importance of the concept in the prompt. You can therefore rank concepts inside a prompt, by attributing important weights to the crucial parts of the idea, and less heavy ones on the side concepts and characters. x should be a positive number for important concepts and a negative number for unwanted concepts. x can range from +10 to -10.
 
-Parameters are always added to the end of a prompt with a "--" prefix. You can add multiple unique parameters to each prompt. A unique parameter can only be used 1 time.
+Parameters are always added to the end of a prompt with a "--" prefix. You can add multiple unique parameters to each prompt. A unique parameter can only be used 1 time. These are examples of parameters will not work "--no test --no dog" or "--c 10 --c 20" in a prompt.
 
 Concepts that should not be included in the image should be indicated with the "--no " prefix. For example, an image that should not have text would include the "--no text" parameter. Multiple concepts that should not be included should follow the "--no" parameter with a space between them. For example an image that should not have text, cats or letters whould include a "--no text cats letters" parameter. There should not be a comma between the concepts after the "--no" parameter.
 
@@ -49,56 +49,29 @@ Use the following examples as a guide (everything wrapped in three backticks ( `
 Concept: phone wallpaper showcasing colorful city lights
 Prompt:
 ```
-/imagine prompt: 
-amazing cityscape RGB::5
-mesmerizing streets::4
-bioluminescent translucent::3
-cinematic lighting, artistic scene, ultra hd unreal engine::2
---s 250  --q 2 --ar 9:16
+/imagine prompt: amazing cityscape RGB::5 mesmerizing streets::4 bioluminescent translucent::3 cinematic lighting, artistic scene, ultra hd unreal engine::2 --s 250  --q 2 --ar 9:16
 ```
 Concept: Artistic shot of a lake house, lofi colors
 Prompt:
 ```
-/imagine prompt: 
-lofi chill house by a lake::3
-Forest trees::2
-blue, orange, pink, purple, sunset::2
-wide shot::1
---s 250
+/imagine prompt: lofi chill house by a lake::3 Forest trees::2 blue, orange, pink, purple, sunset::2 wide shot::1 --s 250 
 ```
+
 Concept: Desktop wallpaper of a biological futuristic forest city, in green and orange
 Prompt:
 ```
-/imagine prompt: 
-Neon-drenched biotechnology futuristic city::3
-Lush jungle cityscape::3
-bio-luminescent green, retro vintage orange::2
-Bustling mesmerizing::1
-desktop wallpaper::1
---ar 16:9
+/imagine prompt: Neon-drenched biotechnology futuristic city::3 Lush jungle cityscape::3 bio-luminescent green, retro vintage orange::2 Bustling mesmerizing::1 desktop wallpaper::1 --ar 16:9
 ```
 Concept: Futuristic Tokyo city, neon blue purple
 Prompt:
 ```
-/imagine prompt: 
-Neo-Tokyo::4
-futuristic metropolis::4
-towering skyscrapers::2
-advanced technology::2
-neon lights::4
-shades of turquoise blue and deep purple::3
---s 250
+/imagine prompt: Neo-Tokyo::4 futuristic metropolis::4 towering skyscrapers::2 advanced technology::2 neon lights::4 shades of turquoise blue and deep purple::3 --s 250
 ```
 
 Concept: realistic landscape with a sunset
 Prompt:
 ```
-/imagine prompt: 
-landscape::4
-sunset in the background::3
-photo realistic::3
-light beams::2
-shades of turquoise blue and deep purple::1
+/imagine prompt: landscape::4 sunset in the background::3 photo realistic::3 light beams::2 shades of turquoise blue and deep purple::1 
 ```
 
 Assume it can generate any image if described well, and most well known styles can be replicated. Visual keywords like colors or specific styles or vibes are helpful for its understanding. Also, if I ask for 3 variations, vary the words in between the three. Each word has a set of concepts it is linked to, so having 90% of the same words is useless because it will return very similar results.
@@ -108,11 +81,7 @@ For variations, really diversify the words you use so that they yield very diffe
 
 ```
 /imagine prompt: 
-Lofi vibes futuristic house::4
-mesmerizing lakefront and wooded jungle::3
-Shades of sunset colors::2
-Cinematic scene, grand scale::1
---s 250
+Lofi vibes futuristic house::4 mesmerizing lakefront and wooded jungle::3 Shades of sunset colors::2 Cinematic scene, grand scale::1 --s 250
 ```
 
 do you understand?
