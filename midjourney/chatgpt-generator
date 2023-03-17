@@ -28,7 +28,7 @@ Concepts that should not be included in the image should be indicated with the "
 
 For example, for the prompt hot dog all words are considered together, and the bot produces images of tasty hotdogs. If the prompt is separated into two parts, hot:: dog both concepts are considered separately, creating a picture of a dog that is warm.
 
-When a double colon :: is used to separate a prompt into different parts, you can add a number immediately after the double colon to assign the relative importance to that part of the prompt.
+When a double colon "::" is used to separate a prompt into different parts, you can add a number immediately after the double colon to assign the relative importance to that part of the prompt.
 
 The prompt hot:: dog produced a dog that is hot. Changing the prompt to hot::2 dog makes the word hot twice as important as the word dog, producing an image of a dog that is very hot!
 
@@ -50,43 +50,43 @@ Concept: phone wallpaper showcasing colorful city lights
 Prompt:
 ```
 /imagine prompt: 
-amazing cityscape RGB ::5
-mesmerizing streets ::4
-bioluminescent translucent ::3
-cinematic lighting, artistic scene, ultra hd unreal engine ::2
+amazing cityscape RGB::5
+mesmerizing streets::4
+bioluminescent translucent::3
+cinematic lighting, artistic scene, ultra hd unreal engine::2
 --s 250  --q 2 --ar 9:16
 ```
 Concept: Artistic shot of a lake house, lofi colors
 Prompt:
 ```
 /imagine prompt: 
-lofi chill house by a lake ::3
+lofi chill house by a lake::3
 Forest trees::2
-blue, orange, pink, purple, sunset ::2
-wide shot ::1
+blue, orange, pink, purple, sunset::2
+wide shot::1
 --s 250
 ```
 Concept: Desktop wallpaper of a biological futuristic forest city, in green and orange
 Prompt:
 ```
 /imagine prompt: 
-Neon-drenched biotechnology futuristic city ::3
-Lush jungle cityscape ::3
-bio-luminescent green, retro vintage orange ::2
-Bustling mesmerizing ::1
-desktop wallpaper ::1
+Neon-drenched biotechnology futuristic city::3
+Lush jungle cityscape::3
+bio-luminescent green, retro vintage orange::2
+Bustling mesmerizing::1
+desktop wallpaper::1
 --ar 16:9
 ```
 Concept: Futuristic Tokyo city, neon blue purple
 Prompt:
 ```
 /imagine prompt: 
-Neo-Tokyo ::4
-futuristic metropolis ::4
-towering skyscrapers ::2
-advanced technology ::2
-neon lights ::4
-shades of turquoise blue and deep purple ::3
+Neo-Tokyo::4
+futuristic metropolis::4
+towering skyscrapers::2
+advanced technology::2
+neon lights::4
+shades of turquoise blue and deep purple::3
 --s 250
 ```
 
@@ -94,11 +94,11 @@ Concept: realistic landscape with a sunset
 Prompt:
 ```
 /imagine prompt: 
-landscape ::4
-sunset in the background ::3
-photo realistic ::3
-light beams ::2
-shades of turquoise blue and deep purple ::1
+landscape::4
+sunset in the background::3
+photo realistic::3
+light beams::2
+shades of turquoise blue and deep purple::1
 ```
 
 Assume it can generate any image if described well, and most well known styles can be replicated. Visual keywords like colors or specific styles or vibes are helpful for its understanding. Also, if I ask for 3 variations, vary the words in between the three. Each word has a set of concepts it is linked to, so having 90% of the same words is useless because it will return very similar results.
@@ -108,10 +108,10 @@ For variations, really diversify the words you use so that they yield very diffe
 
 ```
 /imagine prompt: 
-Lofi vibes futuristic house ::4
-mesmerizing lakefront and wooded jungle ::3
-Shades of sunset colors ::2
-Cinematic scene, grand scale ::1
+Lofi vibes futuristic house::4
+mesmerizing lakefront and wooded jungle::3
+Shades of sunset colors::2
+Cinematic scene, grand scale::1
 --s 250
 ```
 
